@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+
+table {
+  background-color: #33CCFF;
+  border-collapse: collapse;
+  width: 80%;
+}
+th, td {
+  padding: 5px;
+  border-collapse: collapse;
+  }
+  th {
+  background-color: #4CAF50;
+  color: white;
+  }
+  a{
+  text-decoration:none;
+  }
+</style>
+</head>
+<body>
+<br />
+<br />
+<br />
+<form action = "addPhoneServlet" method="post">
+<table align="center">
+<tr>
+	<th colspan="2">Add New CellPhone</th>
+</tr>
+<tr>
+<td align="right"> Manufacturer: </td> 
+<td><input type ="text" name = "man"></td>
+</tr>
+<tr>
+<td align="right">Model: </td> 
+<td><input type = "text" name = "mod"></td>
+</tr>
+<tr> 
+<td></td>
+<td><input type = "submit" value="Add phone"></td>
+</tr>
+</table>
+</form> 
+<br />
+<br />
+<center>
+<a href = "viewAllPhonesServlet">View the All CellPhones</a>
+</center>
+</body>
+</html>
